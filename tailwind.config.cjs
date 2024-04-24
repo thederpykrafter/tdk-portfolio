@@ -6,6 +6,11 @@ const config = {
 
 	theme: {
 		extend: {
+			colors: {
+				primary: {
+					1: 'black',
+				},
+			},
 			fontFamily: {
 				poppins: ['Poppins', 'sans-serif']
 			}
