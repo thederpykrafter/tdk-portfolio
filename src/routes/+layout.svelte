@@ -5,4 +5,12 @@
 
 <Header />
 
-<slot></slot>
+<div>
+	<slot></slot>
+</div>
+
+<style lang="postcss">
+	div:nth-child(n) {
+		@apply px-2 py-1;
+	}
+</style>
