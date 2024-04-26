@@ -8,8 +8,13 @@ const config = {
 		extend: {
 			colors: {
 				primary: {
-					1: 'black',
+					dark: 'black',
+					light: '#555555',
+					border: '#a855f7'
 				},
+				secondary: {
+					border: 'rgb(71 85 105)'
+				}
 			},
 			fontFamily: {
 				poppins: ['Poppins', 'sans-serif']
