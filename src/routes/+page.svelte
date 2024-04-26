@@ -1,12 +1,15 @@
 <div class="flex flex-col justify-center items-center">
-    <h1>Welcome to SvelteKit</h1>
-    <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+    <h1>Hello! I'm <span class="text-primary-border">thederpykrafter</span></h1>
 
     <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptate veniam nam dignissimos magnam expedita quaerat magni aliquid, vero est dicta a corporis, quas, totam nostrum autem illo quis dolores?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptate veniam nam dignissimos magnam expedita quaerat magni aliquid, vero est dicta a corporis, quas, totam nostrum autem illo quis dolores?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptate veniam nam dignissimos magnam expedita quaerat magni aliquid, vero est dicta a corporis, quas, totam nostrum autem illo quis dolores?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptate veniam nam dignissimos magnam expedita quaerat magni aliquid, vero est dicta a corporis, quas, totam nostrum autem illo quis dolores?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptate veniam nam dignissimos magnam expedita quaerat magni aliquid, vero est dicta a corporis, quas, totam nostrum autem illo quis dolores?
+        This portfolio is a work in progress.
+        Im currently refining my skills with 
+        <a href="https://svelte.dev" class="text-brand-svelte">
+            Svelte
+        </a> 
+        as well as learning new tools like 
+        <a href="https://tailwindcss.com" class="text-brand-tailwind">
+            Tailwindcss
+        </a>.
     </p>
 </div>

@@ -14,6 +14,10 @@ const config = {
 				},
 				secondary: {
 					border: 'rgb(71 85 105)'
+				},
+				brand: {
+					svelte: '#ff3e00',
+					tailwind: '#38bdf8'
 				}
 			},
 			fontFamily: {
