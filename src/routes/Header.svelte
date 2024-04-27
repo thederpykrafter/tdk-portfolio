@@ -2,6 +2,7 @@
     import { page } from '$app/stores';
     import { onMount } from 'svelte';
 
+    
     let box: HTMLElement;
 	let xLeft: number = 0;
 	let xScroll: number = 0;
@@ -9,7 +10,27 @@
 	let yTop: number = 0;
 	let yScroll: number = 0;
 	let yHeight: number = 0;
+    
+    
+    export let menuOpen: boolean = false;
+    
+    function toggleMenu(): void {
+        menuOpen = !menuOpen;
+    }
 
+    $: menuOpen && parseScroll();
+    
+    function parseScroll() {
+        xLeft=box.scrollLeft
+		xScroll=box.scrollWidth
+		xWidth=box.clientWidth
+		yTop=box.scrollTop
+		yHeight=box.clientHeight
+		yScroll=box.scrollHeight
+	}
+	
+	onMount(()=>parseScroll())
+    
     let logo: string = 'https://github.com/thederpykrafter.png';
 
     let pages: { title: string, href: string }[] = [
@@ -19,25 +40,6 @@
         { title: 'Contact', href: '/contact' },
         { title: 'Resume', href: '/resume' },
     ];
-
-    export let menuOpen: boolean = false;
-
-    function toggleMenu(): void {
-        menuOpen = !menuOpen;
-    }
-
-    $: menuOpen && parseScroll();
-
-    function parseScroll() {
-		xLeft=box.scrollLeft
-		xScroll=box.scrollWidth
-		xWidth=box.clientWidth
-		yTop=box.scrollTop
-		yHeight=box.clientHeight
-		yScroll=box.scrollHeight
-	}
-	
-	onMount(()=>parseScroll())
 </script>
 
 <header role="navigation" class="border-b-2 border-primary-border">

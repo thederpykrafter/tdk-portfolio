@@ -17,7 +17,8 @@ const config = {
 				},
 				brand: {
 					svelte: '#ff3e00',
-					tailwind: '#38bdf8'
+					tailwind: '#38bdf8',
+					github: '#2dba4e'
 				}
 			},
 			fontFamily: {
