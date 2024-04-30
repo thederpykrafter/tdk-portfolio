@@ -4,12 +4,12 @@
 
     
     let box: HTMLElement;
-	let xLeft: number = 0;
-	let xScroll: number = 0;
-	let xWidth: number = 0;
-	let yTop: number = 0;
-	let yScroll: number = 0;
-	let yHeight: number = 0;
+  	let xLeft: number = 0;
+	  let xScroll: number = 0;
+	  let xWidth: number = 0;
+	  let yTop: number = 0;
+	  let yScroll: number = 0;
+	  let yHeight: number = 0;
     
     
     export let menuOpen: boolean = false;
@@ -104,11 +104,11 @@
                 /* Shadows */
                 radial-gradient(farthest-side at 50% 0, rgba(1,1,1, .2), rgba(255, 255, 255, 0)),
                 radial-gradient(farthest-side at 50% 100%, rgba(1,1,1, .2), rgba(255, 255, 255, 0)) 0 100%;
-            background-repeat: no-repeat;
-            background-color: rgba(0,0,0,0);
+                background-repeat: no-repeat;
+                background-color: rgba(0,0,0,0);
             
-            /* Opera doesn't support this in the shorthand */
-            background-attachment: local, local, scroll, scroll;
+                /* Opera doesn't support this in the shorthand */
+                background-attachment: local, local, scroll, scroll;
         }
     }
 </style>
