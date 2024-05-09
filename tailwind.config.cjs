@@ -18,7 +18,11 @@ const config = {
 				brand: {
 					svelte: '#ff3e00',
 					tailwind: '#38bdf8',
-					github: '#2dba4e'
+					github: '#2dba4e',
+					lego: '#f1ba2a',
+					vex: '#dc1d26',
+					idtech: '#98d708',
+					unreal: '#550809'
 				}
 			},
 			fontFamily: {
