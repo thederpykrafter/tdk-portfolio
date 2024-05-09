@@ -1,6 +1,6 @@
 # create-svelte
 
-[![wakatime](https://wakatime.com/badge/user/8ff1bc96-72c1-4343-b1b9-4dad78d55ebb/project/8b3789f2-8d3c-4b68-b7bb-2c3c7e9aafd2.svg)](https://wakatime.com/badge/user/8ff1bc96-72c1-4343-b1b9-4dad78d55ebb/project/8b3789f2-8d3c-4b68-b7bb-2c3c7e9aafd2)
+<a href="https://wakatime.com/badge/github/thederpykrafter/tdk-portfolio"><img src="https://wakatime.com/badge/github/thederpykrafter/tdk-portfolio.svg" alt="wakatime"></a>
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
 
