@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import Card from '$lib/components/Card.svelte';
 </script>
 
@@ -23,7 +23,7 @@
 	</p>
 </Card>
 <Card>
-	<h1>Hello muthafucka</h1>
+	<h1>Hello World</h1>
 	<span>
 		Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque enim voluptatem ab pariatur
 		repellendus commodi reiciendis quaerat. Debitis, natus consequuntur quam voluptates et vero,
